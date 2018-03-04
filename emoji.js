@@ -55,7 +55,9 @@
 
 			return;
 		};
-/*		var jtcpg_orig = jn.tweetController.prototype.generate;
+
+/*		// Seems not working properly
+		var jtcpg_orig = jn.tweetController.prototype.generate;
 		jn.tweetController.prototype.generate = function()
 		{
 			if(this.item.isRetweet)
